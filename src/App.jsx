@@ -1,11 +1,15 @@
-import productData from './data/full-products';
+import CardList from './components/CardList';
+
+// App.jsx
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello There.</h1>
+    <div>
+      <h1>Welcome to My App</h1>
+      <CardList /> {/* Now rendering the imported CardList component */}
     </div>
   );
 }
 
 export default App;
+
